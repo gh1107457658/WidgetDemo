@@ -45,7 +45,8 @@
     // 2.NSFileManager
     //NSArray *myNoteAry = [DataHelper readDataFromNSFileManager];
     self.noteAry = [NSMutableArray arrayWithArray:myNoteAry];
-    if (note && ![self.noteAry containsObject:note]) {
+    BOOL isNote = note != nil && ![note isEqualToString:@" "];
+    if (isNote && ![self.noteAry containsObject:note]) {
         [self.noteAry addObject:note];
     }
     // 存储数据
