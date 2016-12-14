@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70AE11D1E00ECF20035BC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7771C731DEEE0080057E56B /* Assets.xcassets */; };
+		F70AE11E1E00ECF30035BC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7771C731DEEE0080057E56B /* Assets.xcassets */; };
 		F7771C691DEEE0080057E56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7771C681DEEE0080057E56B /* main.m */; };
 		F7771C6C1DEEE0080057E56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7771C6B1DEEE0080057E56B /* AppDelegate.m */; };
 		F7771C6F1DEEE0080057E56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7771C6E1DEEE0080057E56B /* ViewController.m */; };
 		F7771C721DEEE0080057E56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7771C701DEEE0080057E56B /* Main.storyboard */; };
-		F7771C741DEEE0080057E56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7771C731DEEE0080057E56B /* Assets.xcassets */; };
 		F7771C771DEEE0080057E56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7771C751DEEE0080057E56B /* LaunchScreen.storyboard */; };
 		F788FFC61DFE928F00FACA72 /* NoteList.h in Headers */ = {isa = PBXBuildFile; fileRef = F788FFC41DFE928F00FACA72 /* NoteList.h */; };
 		F788FFC71DFE928F00FACA72 /* NoteList.m in Sources */ = {isa = PBXBuildFile; fileRef = F788FFC51DFE928F00FACA72 /* NoteList.m */; };
@@ -377,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7771C771DEEE0080057E56B /* LaunchScreen.storyboard in Resources */,
-				F7771C741DEEE0080057E56B /* Assets.xcassets in Resources */,
+				F70AE11E1E00ECF30035BC33 /* Assets.xcassets in Resources */,
 				F7771C721DEEE0080057E56B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +394,7 @@
 				F7973BEC1DFA9D9600A018C9 /* game_wg@2x.png in Resources */,
 				F7973BED1DFA9D9600A018C9 /* game_wg@3x.png in Resources */,
 				F7973BF01DFA9D9600A018C9 /* test_wg@2x.png in Resources */,
+				F70AE11D1E00ECF20035BC33 /* Assets.xcassets in Resources */,
 				F7973BEE1DFA9D9600A018C9 /* season_@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
